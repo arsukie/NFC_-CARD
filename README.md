@@ -22,8 +22,11 @@ This is  Design of my NFC Bussiness Card or You can call it a Hacker Card as wel
 THE NFC ANTENNA USED IN THE SCHEMATIC IS FROM THE USER CONTRIBUTED LIBRARY FROM THE EASYEDA SO YOU MIGHT NEED TO GET THE PCB OR YOU CAN USE ANY ANTENNA THAT WORKS FOR NFC AND SUPPORTS NT3H2111W0FHKH IC. I AM USING A 25X48 FOOTPRINT AND IT IS ENGRAVED ON THE COPPER LAYER OF THE PCB.
 
 # Schematics
+<img width="1169" height="827" alt="Schematic_Business-Card_2026-07-28" src="https://github.com/user-attachments/assets/dd4e9dce-12a1-4539-8868-afb03fb726c8" />
 
 # Boardview
+<img width="403" height="259" alt="PCB_PCB_Business-Card_2026-07-28" src="https://github.com/user-attachments/assets/24f07b3a-f300-4db1-afcb-8763a4abe829" />
 
 # 3D View 
+<img width="1079" height="633" alt="image" src="https://github.com/user-attachments/assets/dfd59000-e37e-4cb8-a2f1-7018c9146786" />
 
