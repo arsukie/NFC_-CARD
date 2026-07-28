@@ -1,5 +1,5 @@
 # NFC Hacker Card 
-This is  Design of my NFC Bussiness Card or You can call it a Hacker Card as well. 
+This is  Design of my NFC Bussiness Card or You can call it a Hacker Card as well. I was starting out the Hardware and found this thing as a cool project and Let me know the basics so I build this Thing.
 
 # BOM 
 
@@ -17,5 +17,13 @@ This is  Design of my NFC Bussiness Card or You can call it a Hacker Card as wel
 | 4 | 1 | NT3H2111W0FHKH | U1 | XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH |  | NT3H2111W0FHKH | NXP | C710403 | [LCSC](https://www.lcsc.com/product-detail/C710403.html?s_z=n_q_NT3H2111W0FHKH&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFxVRVFbVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVJfX1ZIHxUDCw%3D%3D) |
 
 
+### NOTE 
 
+THE NFC ANTENNA USED IN THE SCHEMATIC IS FROM THE USER CONTRIBUTED LIBRARY FROM THE EASYEDA SO YOU MIGHT NEED TO GET THE PCB OR YOU CAN USE ANY ANTENNA THAT WORKS FOR NFC AND SUPPORTS NT3H2111W0FHKH IC. I AM USING A 25X48 FOOTPRINT AND IT IS ENGRAVED ON THE COPPER LAYER OF THE PCB.
+
+# Schematics
+
+# Boardview
+
+# 3D View 
 
