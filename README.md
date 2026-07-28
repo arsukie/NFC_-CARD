@@ -29,4 +29,6 @@ THE NFC ANTENNA USED IN THE SCHEMATIC IS FROM THE USER CONTRIBUTED LIBRARY FROM 
 
 # 3D View 
 <img width="1079" height="633" alt="image" src="https://github.com/user-attachments/assets/dfd59000-e37e-4cb8-a2f1-7018c9146786" />
+<img width="1068" height="696" alt="image" src="https://github.com/user-attachments/assets/77b9d475-5e16-4c02-beea-79c715785dd6" />
 
+### Author - Arsukie
