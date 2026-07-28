@@ -9,3 +9,10 @@ This is  Design of my NFC Bussiness Card or You can call it a Hacker Card as wel
 - A 220nF capacitor
 - A NFC antenna That works well but It is engraved on the PCB 
 
+| No. | Quantity | Comment       | Designator | Footprint                                   | Value | Manufacturer Part | Manufacturer | Supplier Part | Supplier |
+|-----|----------|---------------|-------------|---------------------------------------------|-------|-------------------|--------------|---------------|----------|
+| 1 | 1 | 220nF | C1 | C0603 |  | CL10B224KA8NNNC | SAMSUNG | C21120 | LCSC |
+| 2 | 1 | 17-21SUYC/TR8 | LED1 | LED0805-R-RD |  | KT-0805 Yellow LED | KENTO | C2296 | LCSC |
+| 3 | 1 | 47Ω | R1 | R0603 |  | 0603WAF470JT5E | UNI-ROYAL | C23182 | LCSC |
+| 4 | 1 | NT3H2111W0FHKH | U1 | XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH |  | NT3H2111W0FHKH | NXP | C710403 | LCSC |
+
