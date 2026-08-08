@@ -1,0 +1,10 @@
+Part Detail,LCSC Part Number,Type,Top Designator,Qty,Source,Ext. Price
+NT3H2111W0FHKH,C710403,Extended,U1,2,JLCPCB,$1.2834
+CL10B224KA8NNNC,C21120,Basic,C1,2,JLCPCB,$0.0388
+0603WAF470JT5E,C23182,Basic,R1,2,JLCPCB,$0.0172
+KT-0805Y,C2296,Basic,LED1,2,JLCPCB,$0.0304
+,,,,,Total,$1.3698
+
+Unselected Parts
+Designator,Comment,Footprint,Reason,Qty
+1,25X48MM_NFC_ANTENNA,25X48MM_NFC_ANTENNA,,1
