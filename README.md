@@ -21,6 +21,8 @@ This is a NFC card mean it can read and write the NFC commands and exectue them 
 
 
 <img width="1091" height="757" alt="image" src="https://github.com/user-attachments/assets/840e336a-caae-4123-8a75-1486d4122b41" />
+<img width="388" height="531" alt="image" src="https://github.com/user-attachments/assets/31e2aea4-e0d8-4dd1-9481-296dd70843b7" />
+
 
 ### NOTE 
 
