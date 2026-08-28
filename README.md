@@ -4,25 +4,44 @@ This is  Design of my NFC Bussiness Card or You can call it a Hacker Card as wel
 ### Project function
 This is a NFC card mean it can read and write the NFC commands and exectue them as well. It uses NT3H2111W0FHKH IC for the NFC handeling and a 25x48 antenna , a LED light , a 47Ω Resistor and 220nF Capacitor. The led Will blink whenever the antenna harvests the energy.
 
-# BOM 
+# NFC Business Card — Bill of Materials
+ 
+An NFC-powered business card. The NT3H2111W0FHKH handles NFC communication and harvests energy from the phone to light up an LED — no battery needed. The antenna is engraved directly on the PCB.
+ 
+## Components
+ 
+- **NT3H2111W0FHKH** - NFC chip, the main component of the card. Handles NFC functionality and harvests energy from the phone to light up the LED.
+- **~2V LED** - using C2296 (also known as 17-21SUYC/TR8), but any similar 2V LED works.
+- **47Ω resistor**
+- **220nF capacitor**
+- **NFC antenna** - engraved on the PCB itself, no separate part needed.
+- 
+## Bill of Materials
+ 
+| No. | Quantity | Comment | Designator | Footprint | Value | Manufacturer Part | Manufacturer | Supplier Part | Supplier |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | 1 | 220nF | C1 | C0603 | | CL10B224KA8NNNC | SAMSUNG | C21120 | [LCSC](https://www.lcsc.com/product-detail/C21120.html?s_z=n_q_CL10B224KA8NNNC&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFJSRFRbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4MCAlJGBEaDgsIBA%3D%3D) |
+| 2 | 1 | 17-21SUYC/TR8 | LED1 | LED0805-R-RD | | KT-0805 Yellow LED | KENTO | C2296 | [LCSC](https://www.lcsc.com/product-detail/C2296.html?s_z=n_q_KT-0805%2520Yellow%2520LED&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFNVRVdeUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVBfVVRIHxUDCw%3D%3D) |
+| 3 | 1 | 47Ω | R1 | R0603 | | 0603WAF470JT5E | UNI-ROYAL | C23182 | [LCSC](https://www.lcsc.com/product-detail/C23182.html?s_z=s_p_0603WAF470JT5E&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFNfTlVXUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D) |
+| 4 | 1 | NT3H2111W0FHKH | U1 | XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH | | NT3H2111W0FHKH | NXP | C710403 | [LCSC](https://www.lcsc.com/product-detail/C710403.html?s_z=n_q_NT3H2111W0FHKH&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFxVRVFbVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVJfX1ZIHxUDCw%3D%3D) |
+ 
+## PCB & Shipping
+ 
+| Type | Item | Description | Qty | Build Time | Price |
+|---|---|---|---|---|---|
+| PCB | Gerber_Bussiness_card_Y9 | PCB prototype: Y9-13163216A, Black, 1.6 Thickness, HASL(with lead) | 5 pcs | 24 hours | $4.00 |
+| PCBA | Gerber_Bussiness_card_Y9 | Economic PCBA: SMT026082762821-13163216A, Assemble top side | 2 pcs | 1 - 2 days | $15.78 |
+ 
+| | |
+|---|---|
+| **PCB (Merchandise)** | $19.78 |
+| Shipping | $16.01 |
+| **Subtotal** | **$35.79** |
+## Cart
+<img width="1503" height="526" alt="image" src="https://github.com/user-attachments/assets/5413c07c-2ee8-4c98-a577-ab922a57309d" />
+<img width="1094" height="756" alt="image" src="https://github.com/user-attachments/assets/e601b26a-d7da-4463-8535-7e1c582c671c" />
+<img width="634" height="264" alt="image" src="https://github.com/user-attachments/assets/76e6d237-32ef-483d-8658-1ba8bacc9f43" />
 
-- A NT3H2111W0FHKH NFC Chip: this will be the main component of our card -- it both handles the NFC functionality as well as harvests energy from the phone to light up the LED
-- An ~2V LED. I'm using C2296, but feel free to pick a different version (note: this part may also be called 17-21SUYC/TR8)
-- A 47Ω resistor
-- A 220nF capacitor
-- A NFC antenna That works well but It is engraved on the PCB 
-
-| No. | Quantity | Comment       | Designator | Footprint                                   | Value | Manufacturer Part | Manufacturer | Supplier Part | Supplier |
-|-----|----------|---------------|-------------|---------------------------------------------|-------|-------------------|--------------|---------------|----------|
-| 1 | 1 | 220nF | C1 | C0603 |  | CL10B224KA8NNNC | SAMSUNG | C21120 | [LCSC](https://www.lcsc.com/product-detail/C21120.html?s_z=n_q_CL10B224KA8NNNC&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFJSRFRbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4MCAlJGBEaDgsIBA%3D%3D) |
-| 2 | 1 | 17-21SUYC/TR8 | LED1 | LED0805-R-RD |  | KT-0805 Yellow LED | KENTO | C2296 | [LCSC](https://www.lcsc.com/product-detail/C2296.html?s_z=n_q_KT-0805%2520Yellow%2520LED&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFNVRVdeUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVBfVVRIHxUDCw%3D%3D) |
-| 3 | 1 | 47Ω | R1 | R0603 |  | 0603WAF470JT5E | UNI-ROYAL | C23182 | [LCSC](https://www.lcsc.com/product-detail/C23182.html?s_z=s_p_0603WAF470JT5E&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFNfTlVXUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D) |
-| 4 | 1 | NT3H2111W0FHKH | U1 | XQFN-8_L1.6-W1.6-P0.50-BL_NT3H2111W0FHKH |  | NT3H2111W0FHKH | NXP | C710403 | [LCSC](https://www.lcsc.com/product-detail/C710403.html?s_z=n_q_NT3H2111W0FHKH&spm=wm.fly.bg.0.xh&lcsc_vid=EgdXVwICRgMMUQdTT1AKU1ZfQgRfUVFSEVRcXldUEQIxVlNeQlNdVFxVRVFbVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVJfX1ZIHxUDCw%3D%3D) |
-
-
-<img width="1091" height="757" alt="image" src="https://github.com/user-attachments/assets/840e336a-caae-4123-8a75-1486d4122b41" />
-<img width="388" height="531" alt="image" src="https://github.com/user-attachments/assets/31e2aea4-e0d8-4dd1-9481-296dd70843b7" />
-<img width="1578" height="870" alt="image" src="https://github.com/user-attachments/assets/217845b0-20b5-4863-916d-581cfa2cdbbd" />
 
 
 
