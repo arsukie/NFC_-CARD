@@ -1,0 +1,16 @@
+Selected Parts (4 items),,,,,
+
+Part Detail,Selected by,Top Designator,Qty,Source,Ext. Price
+"NT3H2111W0FHKH (Extended, C710403)",System,U1,2,JLCPCB,1.2538
+"CL10B224KA8NNNC (Basic, C21120)",System,C1,2,JLCPCB,0.0336
+"0603WAF470JT5E (Basic, C23182)",System,R1,2,JLCPCB,0.0086
+"KT-0805Y (Basic, C2296)",System,LED1,2,JLCPCB,0.0306
+
+PCB & Shipping,,,,,
+Type,Item,Description,Qty,Build Time,Price
+PCB,Gerber_Bussiness_card_Y9,PCB prototype: Y9-13163216A,5 pcs,24 hours,4
+PCBA,Gerber_Bussiness_card_Y9,Economic PCBA: SMT026082762821-13163216A,2 pcs,1 - 2 days,15.78
+
+PCB (Merchandise),19.78,,,,
+Shipping,16.01,,,,
+Subtotal,35.79,,,,
