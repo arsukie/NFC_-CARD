@@ -4,7 +4,7 @@ This is  Design of my NFC Bussiness Card or You can call it a Hacker Card as wel
 ### Project function
 This is a NFC card mean it can read and write the NFC commands and exectue them as well. It uses NT3H2111W0FHKH IC for the NFC handeling and a 25x48 antenna , a LED light , a 47Ω Resistor and 220nF Capacitor. The led Will blink whenever the antenna harvests the energy.
 
-# NFC Business Card — Bill of Materials
+# NFC Business Card - Bill of Materials
  
 An NFC-powered business card. The NT3H2111W0FHKH handles NFC communication and harvests energy from the phone to light up an LED — no battery needed. The antenna is engraved directly on the PCB.
  
